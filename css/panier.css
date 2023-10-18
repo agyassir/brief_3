@@ -1,0 +1,119 @@
+@import url(header.css);
+a{
+    text-decoration: none;
+}
+.content{
+    width:100%;
+}
+.text{
+    font-size: small;
+    color: #707070;
+    margin-left: 120px;
+    margin-top: 50px;
+} 
+.card1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card1 img {
+    display: flex;
+    width: 5%;
+    height: 80%;
+        border-radius: 16px;
+    
+}
+
+.container {
+    height: 80px;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vb {
+    width: 100%;
+    border: rgba(112, 112, 112, 0.251) solid 1px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding:  5px;
+}
+
+.cards {
+
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    font-family: 'Allerta Stencil';
+    color: #A18A68;
+    margin-top: 1em;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.quantity{
+    text-align: center;
+    text-decoration: solid;
+    border: rgba(105, 105, 105, 0.539) 1px solid;
+    padding: 12px;
+    border-radius: 16px;
+    width: 200px;
+}
+.quantity p{
+    padding-bottom: 5px;
+}
+.button a{
+    text-decoration: none;
+}
+.button a:nth-child(1){
+ color: white;
+background-color: green;
+font-size: 20px;
+border-radius: 16px;
+padding: 5px;
+text-decoration: none;
+}
+.button a:nth-child(1):hover{
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: green solid 1px;
+}
+.button a p{
+    color: white;
+   background-color: red;
+   font-size: 20px;
+   border-radius: 16px;
+   font-size: medium;
+   padding: 5px 0px;
+   text-decoration: none;
+   }
+   .button a p:hover{
+    color: red;
+   background-color: white;
+   border: red solid 1px;
+}
+.texture a{
+    text-decoration: none;
+    color: #A18A68;
+}

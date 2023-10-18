@@ -1,0 +1,64 @@
+@import url(header.css);
+.text{
+    font-size: small;
+    color: #707070;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.size{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.desc{
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+
+    border: #707070 solid 1px;
+    width: 35%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.size2{
+width: 60%;
+}
+.npro{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.fre3 , .nod{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:12px ;
+}
+.description , .materiel{
+font-size: 20px;
+margin: 20px 0;
+}
+.nod a{
+    padding: 10px 15px;
+    background-color: #707070;
+    color: aliceblue;
+    border-radius: 16px;
+    text-decoration: none;
+    
+}
+.fre3 img{
+    width: 100px;
+}
+.fre3 p{
+opacity: 0.005;
+color: #707070;
+}
+.desc p{
+    opacity: 0.7;
+    margin-top: 15px;
+}

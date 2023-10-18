@@ -1,0 +1,191 @@
+@import url(header.css);
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+}
+
+.max {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 10px;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #333;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #a18a6850;
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    padding: 20px 10px;
+    border-radius: 16px;
+
+}
+
+.form .cvv {
+    width: 38%;
+
+}
+
+.form .date {
+    width: 42%;
+    margin-left: 1%;
+}
+
+.form .bank__number {
+    width: 60%;
+}
+
+.form .pcode {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.form .phone {
+    width: 100%;
+}
+
+.form .submit[value] {
+    color: #A18A68;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.form .submit {
+    width: 30%;
+    background-color: white;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+}
+
+.form .submit:hover {
+    background-color: rgb(39, 255, 39);
+    color: white;
+}
+
+.form .submit:hover .submit[value] {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.contenu{
+    border: solid 1px;
+    width: 65%;
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+.contenu h2{
+    font-family: 'DM Sans';
+    border-bottom:1px    solid;
+}
+.card1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card1 img {
+    display: flex;
+    width: 5%;
+    height: 80%;
+        border-radius: 16px;
+    
+}
+
+.vontainer {
+    height: 80px;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vb {
+    width: 100%;
+    border: rgba(112, 112, 112, 0.251) solid 1px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding:  5px;
+}
+
+.cards {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+}
+
+.cards p {
+    font-family: 'Allerta Stencil';
+    color: #A18A68;
+    margin-top: 1em;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.quantity{
+    text-align: center;
+    text-decoration: solid;
+    border: rgba(105, 105, 105, 0.539) 1px solid;
+    padding: 12px;
+    border-radius: 16px;
+    width: 200px;
+}
+.quantity p{
+    padding-bottom: 5px;
+}
+.size{
+    width: 90%;
+    gap: 10px;
+}

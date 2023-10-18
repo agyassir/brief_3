@@ -1,0 +1,28 @@
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    background: #fff;
+    box-sizing: border-box;
+
+}
+.header{
+    height: 100px;
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    display: inline;
+}
+.header .title {
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    font-family: 'Allerta Stencil';
+    color: #A18A68;
+}
