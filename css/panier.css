@@ -8,8 +8,9 @@ a{
 .text{
     font-size: small;
     color: #707070;
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 } 
 .card1 {
     display: flex;
@@ -41,7 +42,7 @@ a{
     justify-content: space-between;
 }
 
-.vb {
+.card1-cadre {
     width: 100%;
     border: rgba(112, 112, 112, 0.251) solid 1px;
     border-radius: 16px;
@@ -78,7 +79,7 @@ a{
     border: rgba(105, 105, 105, 0.539) 1px solid;
     padding: 12px;
     border-radius: 16px;
-    width: 200px;
+    width: 20%;
 }
 .quantity p{
     padding-bottom: 5px;
@@ -116,4 +117,15 @@ text-decoration: none;
 .texture a{
     text-decoration: none;
     color: #A18A68;
+}
+@media only screen and (max-width: 600px){
+    .card1-cadre{
+        flex-wrap: wrap;
+    }
+    .text{
+        margin-bottom: 5%;
+    }
+    .quantity{
+        width: 40%;
+    }
 }

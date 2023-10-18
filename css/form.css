@@ -34,6 +34,8 @@ body {
 .head {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'DM Sans';
+    margin: 2% 0;
 }
 
 .form {
@@ -142,7 +144,7 @@ body {
     justify-content: space-between;
 }
 
-.vb {
+.card1-cadre {
     width: 100%;
     border: rgba(112, 112, 112, 0.251) solid 1px;
     border-radius: 16px;
@@ -188,4 +190,12 @@ body {
 .size{
     width: 90%;
     gap: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .contenu{
+        display: none;
+    }
+    .contain{
+        width: 100%;
+    }
 }

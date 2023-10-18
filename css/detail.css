@@ -16,6 +16,7 @@
     width: 70%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .img{
 
@@ -29,12 +30,12 @@
 .size2{
 width: 60%;
 }
-.npro{
+.nproduit{
     width: 100%;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
-.fre3 , .nod{
+.serial , .payment{
     display: flex;
     justify-content: space-between;
     margin-bottom:12px ;
@@ -43,7 +44,7 @@ width: 60%;
 font-size: 20px;
 margin: 20px 0;
 }
-.nod a{
+.payment a{
     padding: 10px 15px;
     background-color: #707070;
     color: aliceblue;
@@ -51,14 +52,34 @@ margin: 20px 0;
     text-decoration: none;
     
 }
-.fre3 img{
+.serial img{
     width: 100px;
 }
-.fre3 p{
+.serial p{
 opacity: 0.005;
 color: #707070;
 }
 .desc p{
     opacity: 0.7;
     margin-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .img{
+
+        border: #707070 solid 1px;
+        width: 100%;
+        height:500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+    }
+    .size2{
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 5%;
+        }
+        .text{
+            margin-left: 45px;
+        }
 }

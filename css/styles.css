@@ -145,11 +145,11 @@
 
 }
 imgab{ 
-    background-image: url(/aboutus.png);
+    background-image: url(/abtus2.png);
     width: 99%;
     height: 350px;
-    background-repeat: repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin: 50px 0px;
     border-radius: 16px;
 }
@@ -243,6 +243,9 @@ a h4{
     }
     .hg h3{
         width: 100%;
+    }
+    .aboutText p {
+        line-height: 20px;
     }
 
   }
