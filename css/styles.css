@@ -9,7 +9,7 @@
 }
 .hero {
     display: flex;
-    background-image: url(/hero.png);
+    background-image: url(/image/aboutus.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -144,7 +144,7 @@
     font-family:'DM Sans';
 
 }
-imgab{ 
+.imgab{ 
     background-image: url(/abtus2.png);
     width: 99%;
     height: 350px;
