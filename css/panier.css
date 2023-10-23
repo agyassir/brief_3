@@ -118,6 +118,23 @@ text-decoration: none;
     text-decoration: none;
     color: #A18A68;
 }
+input[value]{
+    text-align: center;
+    padding: 10px;
+}
+#panierk, #panierk1{
+ margin-right: 5px;
+ width: 30%;
+ border-radius: 16px;
+ border: 1px solid #A18A68;
+}
+
+button{
+    background-color: #fff;
+    border: 1px #A18A68 solid;
+    border-radius: 16px;
+    padding: 0 6px;
+}
 @media only screen and (max-width: 600px){
     .card1-cadre{
         flex-wrap: wrap;
