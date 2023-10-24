@@ -15,52 +15,52 @@
 <body>
     <header>
         <nav class="header">
-          <a href="index.html" class="bar-title" style="align-self:center ;">
-            <p>You<span style="color: #686aa1">Shope</span></p>
-          </a>
-          <div class="after-logo">
-            <div class="icons">
-              <ul>
-                <a href="#">
-                  <li>Shop</li>
-                </a>
-                <a href="#">
-                  <li>Blog</li>
-                </a>
-                <a href="#">
-                  <li>Our Story</li>
-                </a>
-                <a href="#">
-                  <li> | <i class="fa-solid fa-magnifying-glass"></i></li>
-                </a>
-                <a href="panier.html">
-                  <li><i class="fa-solid fa-cart-shopping"></i></li>
-                </a>
-                <a href="#">
-                  <li><i class="fa-regular fa-user"></i></li>
-                </a>
-            </div>
-            <a href="#" id="menu">
-              <li><i class="fa-solid fa-list"></i></li>
+            <a href="index.html" class="bar-title" style="align-self:center ;">
+                <p>You<span style="color: #686aa1">Shope</span></p>
             </a>
-            </ul>
-          </div>
+            <div class="after-logo">
+                <div class="icons">
+                    <ul>
+                        <a href="#">
+                            <li>Shop</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Our Story</li>
+                        </a>
+                        <a href="#">
+                            <li> | <i class="fa-solid fa-magnifying-glass"></i></li>
+                        </a>
+                        <a href="panier.html">
+                            <li><i class="fa-solid fa-cart-shopping"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-regular fa-user"></i></li>
+                        </a>
+                </div>
+                <a href="#" id="menu">
+                    <li><i class="fa-solid fa-list"></i></li>
+                </a>
+                </ul>
+            </div>
         </nav>
-      </header>
-      <div id="menu__affichage">
+    </header>
+    <div id="menu__affichage">
         <div class="menu__container">
-          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-warehouse"></i></a></div>
-          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-blog"></i></a></div>
-          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-book"></i></a></div>
-          <div class="menu__icons"><a href="panier.html"> <i class="fa-solid fa-cart-shopping"></i></a></a></div>
-          <div class="menu__icons"> <a href="#"><i class="fa-regular fa-user"></i></a></div>
+            <div class="menu__icons"> <a href="#"><i class="fa-solid fa-warehouse"></i></a></div>
+            <div class="menu__icons"> <a href="#"><i class="fa-solid fa-blog"></i></a></div>
+            <div class="menu__icons"> <a href="#"><i class="fa-solid fa-book"></i></a></div>
+            <div class="menu__icons"><a href="panier.html"> <i class="fa-solid fa-cart-shopping"></i></a></a></div>
+            <div class="menu__icons"> <a href="#"><i class="fa-regular fa-user"></i></a></div>
         </div>
-      </div>
+    </div>
     <div class="text">
         <p>Accueil / Panier</p>
     </div>
     <div class="content">
-        
+
         <div class="cards">
             <div class="card1">
                 <div class="card1-cadre">
@@ -70,24 +70,23 @@
                             <a href="detail.html">
                                 <h4><b>Lira Earrings</b></h4>
                             </a>
-                            <input type="text" value="20$" style="border: none;" class="prix" readonly>
+                            <input type="text" value="20" style="border: none;" class="prix" readonly>
                         </div>
                     </div>
                     <div class="quantity">
                         <p>
-                            Quantity 
+                            Quantity
                         </p>
                         <button class="add">+</button>
                         <input type="number" class="panierk" min="1" value="1"><button class="minus">-</button>
                     </div>
                     <div class="button">
-                        <a href="/formulaire.html"> confirmer </a>
-                        <a href="#">
-                            <p>suprimer</p>
+                        <button class="ajout">confirm</button>
+                        <button class="supp">suprimer</button>
                         </a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="cards">
@@ -99,25 +98,38 @@
                             <a href="detail.html">
                                 <h4><b>Lira Earrings</b></h4>
                             </a>
-                            <input type="text" value="20$" style="border: none;" readonly class="prix" \> 
+                            <input type="text" value="20" style="border: none;" readonly class="prix" \>
                         </div>
                     </div>
                     <div class="quantity">
                         <p>
-                            Quantity 
+                            Quantity
                         </p>
                         <button class="add">+</button>
                         <input type="number" class="panierk" min="1" value="1"><button class="minus">-</button>
                     </div>
                     <div class="button">
-                        <a href="#"> confirmer </a>
-                        <a href="#">
-                            <p>suprimer</p>
-                        </a>
+                        <!-- <a href="#"> confirmer </a> -->
+                        <button class="ajout">confirm</button>
+                        <button class="supp">suprimer</button>
+                        
                     </div>
                 </div>
-                
+
             </div>
+        </div>
+    </div>
+    <div class="total__prix">
+        <div class="total__prix__container">
+            <div class="items__number">
+                <h2>items :</h2>
+                <input type="number" id="items" value="1" readonly>
+            </div>
+            <div class="prix__total">
+                <h2>total price is :</h2>
+                <input type="number" id="total_prix" value="1" readonly>
+            </div>
+            <button style=""><a href="formulaire.html">checkout</a></button>
         </div>
     </div>
     <footer>
@@ -145,4 +157,5 @@
 
 </body>
 <script src="/js/togglebar.js"></script>
+
 </html>
