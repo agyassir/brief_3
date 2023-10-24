@@ -12,7 +12,9 @@ let prix__total = document.getElementById("total_prix");
 let items_number = document.getElementById("items");
 let suprimer = document.getElementsByClassName("supp");
 let card = document.getElementsByClassName("cards");
-console.log(suprimer)
+let confirm = document.querySelectorAll(".ajout");
+let icon =document.querySelectorAll(".added");
+console.log(confirm)
 // toggle bar
 menu.addEventListener("click", function () {
     if (menucontent.style.display === "none") {
@@ -46,30 +48,18 @@ function moin(n) {
 
 items_number.value = panier.length;
 prix__total.value = Number(prix[0].value) + Number(prix[1].value);
-adding[0].addEventListener("click", function () {
-    plus(0);
-    prix__total.value = Number(prix[0].value) + Number(prix[1].value);
+for(let i = 0;i<items_number.value ; i++){
+adding[i].addEventListener("click", function () {
+    plus(i);
+    prix__total.value = Number(prix[i].value) + Number(prix[i+1].value);
 })
-adding[1].addEventListener("click", function () {
-    n = 1;
-    plus(1);
-    prix__total.value = Number(prix[0].value) + Number(prix[1].value);
-})
-minus[0].addEventListener("click", function () {
-    moin(0);
-    prix__total.value = Number(prix[0].value) + Number(prix[1].value);
-})
-minus[1].addEventListener("click", function () {
-    n = 1;
-    moin(1);
-    prix__total.value = Number(prix[0].value) + Number(prix[1].value);
-})
-// function supprission(n){
-       
 
-// }
+minus[i].addEventListener("click", function () {
+    moin(i);
+    prix__total.value = Number(prix[i].value) + Number(prix[i+1].value);
+})
+}
 let lenght=suprimer.length;
-// while(items_number.value=0){
 for (let i = 0; i < lenght; i++) {
     suprimer[i].addEventListener('click',function(){
         card[i].style.display = "none";
@@ -79,5 +69,13 @@ for (let i = 0; i < lenght; i++) {
         console.log(lenght)
     })
   }
-  
-// }
+  let confirmer = confirm.length;
+  console.log(confirmer)
+  for(let i=0;i<confirmer;i++){
+    confirm[i].addEventListener("click",function(){
+        confirm[i].style.display="none";
+        icon[i].style.display="block";    
+        console.log("dimakokab")    
+
+    })
+  }
