@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 .img{
-
+    background-image: url(/image/Img\ 03.png);
     border: #707070 solid 1px;
     width: 35%;
     height:500px;
