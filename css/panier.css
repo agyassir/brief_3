@@ -160,6 +160,9 @@ button{
 .total__prix__container button:hover{
 
 }
+.added{
+    display: none;
+}
 @media only screen and (max-width: 600px){
     .card1-cadre{
         flex-wrap: wrap;
