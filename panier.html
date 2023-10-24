@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="header">
-          <a href="#" class="bar-title" style="align-self:center ;">
+          <a href="index.html" class="bar-title" style="align-self:center ;">
             <p>You<span style="color: #686aa1">Shope</span></p>
           </a>
           <div class="after-logo">
@@ -47,6 +47,15 @@
           </div>
         </nav>
       </header>
+      <div id="menu__affichage">
+        <div class="menu__container">
+          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-warehouse"></i></a></div>
+          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-blog"></i></a></div>
+          <div class="menu__icons"> <a href="#"><i class="fa-solid fa-book"></i></a></div>
+          <div class="menu__icons"><a href="panier.html"> <i class="fa-solid fa-cart-shopping"></i></a></a></div>
+          <div class="menu__icons"> <a href="#"><i class="fa-regular fa-user"></i></a></div>
+        </div>
+      </div>
     <div class="text">
         <p>Accueil / Panier</p>
     </div>
@@ -61,14 +70,15 @@
                             <a href="detail.html">
                                 <h4><b>Lira Earrings</b></h4>
                             </a>
-                            <p>$ 20,00</p>
+                            <input type="text" value="20$" style="border: none;" class="prix" readonly>
                         </div>
                     </div>
                     <div class="quantity">
                         <p>
                             Quantity 
                         </p>
-                        <input type="number" class="panierk" min="1" value="1">
+                        <button class="add">+</button>
+                        <input type="number" class="panierk" min="1" value="1"><button class="minus">-</button>
                     </div>
                     <div class="button">
                         <a href="/formulaire.html"> confirmer </a>
@@ -89,14 +99,15 @@
                             <a href="detail.html">
                                 <h4><b>Lira Earrings</b></h4>
                             </a>
-                            <p>$ 20,00</p>
+                            <input type="text" value="20$" style="border: none;" readonly class="prix" \> 
                         </div>
                     </div>
                     <div class="quantity">
                         <p>
                             Quantity 
                         </p>
-                        <input type="number" class="panierk" min="1" value="1">
+                        <button class="add">+</button>
+                        <input type="number" class="panierk" min="1" value="1"><button class="minus">-</button>
                     </div>
                     <div class="button">
                         <a href="#"> confirmer </a>
@@ -131,6 +142,7 @@
             </div>
         </div>
     </footer>
-</body>
 
+</body>
+<script src="/js/togglebar.js"></script>
 </html>
