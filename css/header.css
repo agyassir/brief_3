@@ -149,7 +149,7 @@ input{
     flex-direction: column;
     width: 100%;
     backdrop-filter: blur(10px);
-    height: 100vh;
+    height: 90vh;
     position: fixed;
 }
 .menu__icons{
@@ -164,7 +164,6 @@ input{
     justify-content: center;  
     font-size:10px;  
     gap: 1%;
-    position: sticky;
 }
 #menu{
     display: none;
@@ -256,4 +255,5 @@ input{
     #menu{
         display: block;
     }
+    
   }
