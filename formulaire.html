@@ -63,15 +63,15 @@
         <div class="container">
             <div class="contain">
                 <div class="form">
-                    <form>
-                        <input type="text" placeholder="full name" class="name" />
-                        <input type="text" placeholder="adresse" class="form__adresse" />
-                        <input type="number" class="bank__number" placeholder="Card Number" />
-                        <input type="number" placeholder="cvv" class="cvv" />
-                        <input type="month" placeholder="Expire Date" class="date" />
-                        <input type="number" placeholder="Postal Code" class="pcode" />
-                        <input type="email" placeholder="email" class="email" />
-                        <input type="number" class="phone" placeholder="phone" />
+                    <form name="formulaire">
+                        <input type="text" placeholder="full name" name="fname" class="name"/>
+                        <input type="text" placeholder="adresse" name="faddresse"class="form__adresse" />
+                        <input type="number" class="bank__number" name="fnumber"placeholder="Visa Card Number" />
+                        <input type="number" placeholder="cvv"name="fcvv" class="cvv" />
+                        <input type="month" placeholder="Expire Date"name="fedate" class="date" />
+                        <input type="number" placeholder="Postal Code"name="fpcode" class="pcode" />
+                        <input type="email" placeholder="email" name="femail"class="email" />
+                        <input type="number" class="phone" name="fone"placeholder="phone" />
                         <div class="sub">
                             <input type="submit" value="submit" class="submit" />
                         </div>
@@ -130,6 +130,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/togglebar.js"></script>
 </body>
 
 </html>
