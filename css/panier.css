@@ -158,7 +158,10 @@ button{
     width: 15%;
 }
 .total__prix__container button:hover{
-
+     background-color: #A18A68;
+}
+.total__prix__container button:hover a{
+    color: #fff;
 }
 .added{
     display: none;
@@ -176,5 +179,9 @@ button{
     .total__prix__container input[value]{
         text-align: start;
         padding: 10px;
+    }
+    .total__prix__container button{ 
+        height: 44px;
+        width: 40%;
     }
 }
